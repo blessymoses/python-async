@@ -1,3 +1,9 @@
+"""
+Threading
+  - the OS knows about each thread and can interrupt it at any time to start running a different thread. 
+  - pre-emptive multitasking: since the operating system can pre-empt your thread to make the switch.
+Example: Single and multi thread executions
+"""
 import time
 from threading import Thread
 
