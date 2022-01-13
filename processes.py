@@ -1,5 +1,8 @@
 """
 Multiprocessing
+- With multiprocessing, Python creates new processes.
+- each process runs in its own Python interpreter.
+- The processes all run at the same time on different processors.
 """
 import time
 from multiprocessing import Process
