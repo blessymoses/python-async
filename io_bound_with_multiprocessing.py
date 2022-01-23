@@ -1,3 +1,7 @@
+"""Download all sites - using multiprocessing
+   By default, multiprocessing.Pool() will determine the number of CPUs in the computer and 
+   create the processes in the pool.
+"""
 import multiprocessing
 import time
 

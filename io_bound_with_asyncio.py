@@ -1,3 +1,5 @@
+"""Download all sites - using asyncio
+"""
 import asyncio
 import time
 
