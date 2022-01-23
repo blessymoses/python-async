@@ -28,10 +28,10 @@ def download_all_sites(sites):
 
 
 if __name__ == "__main__":
-    sites = ["https://github.com/blessymoses", "https://testdriven.io"] * 100
+    sites = ["https://github.com/blessymoses", "https://github.com/coding-gc"] * 100
     start_time = time.time()
     download_all_sites(sites)
     duration = time.time() - start_time
     print(
         f"Downloaded {len(sites)} sites in {duration} seconds"
-    )  # Downloaded 200 sites in 12.291815996170044 seconds
+    )  # Downloaded 200 sites in 1.8391540050506592 seconds
