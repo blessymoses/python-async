@@ -20,3 +20,12 @@ if __name__ == "__main__":
     asyncio.run(main())
     elapsed = time.perf_counter() - s
     print(f"{__file__} executed in {elapsed:0.2f} seconds")
+"""
+One
+One
+One
+Two
+Two
+Two
+/Users/blessy/Documents/myrepo/python-async/async_io_basic_count.py executed in 1.00 seconds
+"""
