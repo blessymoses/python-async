@@ -16,11 +16,14 @@
   - `threading` and `asyncio` do not help this type of problem at all.
   - Multiprocessing is well-suited for CPU-bound tasks such as, tightly bound `for loops` and mathematical computations.
 
-  ## async IO
-  - async IO is a single-threaded, single-process design: it uses cooperative multitasking.
-  - async IO gives a feeling of concurrency despite using a single thread in a single process. 
-  - Coroutines (a central feature of async IO) can be scheduled concurrently, but they are not inherently concurrent.
-  - `asynchronous`
-    - Asynchronous routines are able to “pause” while waiting on their ultimate result and let other routines run in the meantime.
-    - Asynchronous code facilitates concurrent execution.
-    
+## async IO
+- async IO is a single-threaded, single-process design: it uses cooperative multitasking.
+- async IO gives a feeling of concurrency despite using a single thread in a single process. 
+- Coroutines (a central feature of async IO) can be scheduled concurrently, but they are not inherently concurrent.
+- `asynchronous`
+  - Asynchronous routines are able to “pause” while waiting on their ultimate result and let other routines run in the meantime.
+  - Asynchronous code facilitates concurrent execution.
+- At the heart of async IO are `coroutines`. 
+  - A coroutine is a specialized version of a Python generator function.
+  - a coroutine is a function that can suspend its execution before reaching `return`, and it can indirectly pass control to another coroutine for some time.
+  
